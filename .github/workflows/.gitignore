@@ -1,0 +1,8 @@
+# Ignorar archivos y directorios generados automáticamente
+node_modules/
+.cache/
+public/
+
+# Ignorar archivos de construcción
+build/
+dist/
