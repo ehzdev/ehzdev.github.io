@@ -1,12 +1,3 @@
-/* --------------------------------------------------------------------
-* Master Stylesheet
-* 
-* Template:		Jesper - Creative Portfolio Showcase HTML Website Template
-* Author:		Themetorium
-* URL:			https://themetorium.net/
-*
--------------------------------------------------------------------- */
-
 
 /* Table of Content
 ====================
@@ -2355,7 +2346,6 @@ body.is-mobile .ph-mask {
 }
 .tt-scroll-down .tt-scrd-icon::before {
 	/* Font Awesome */
-	content: "\f063";
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
 	display: inline-block;
