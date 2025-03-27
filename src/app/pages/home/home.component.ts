@@ -3,11 +3,10 @@ import { Title, Meta } from '@angular/platform-browser';
 import { HeaderComponent } from './header/header.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ServicesComponent } from './services/services.component';
-import { ContactComponent } from './contact/contact.component';
 
 @Component({
   selector: 'app-home',
-  imports: [HeaderComponent, ExperienceComponent, ServicesComponent, ContactComponent],
+  imports: [HeaderComponent, ExperienceComponent, ServicesComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
