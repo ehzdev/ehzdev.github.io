@@ -5,11 +5,16 @@
     <div id="ball"></div>
   </div>
 
-  <app-header></app-header>
+  <app-navbar></app-navbar>
 
   <div id="tt-content-wrap">
-    
-    <router-outlet />
+    <app-header *ngIf="showHeader"></app-header>
+
+    <div id="tt-page-content">
+      <router-outlet />
+    </div>
+
+    <app-contact></app-contact>
     <app-footer></app-footer>
     <app-scrolltop></app-scrolltop>
 
